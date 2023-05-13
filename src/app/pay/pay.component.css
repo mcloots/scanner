@@ -8,20 +8,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 150px;
     font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .options {
     display:grid;
-    column-gap: 50px;
+    column-gap: 10px;
     grid-template-columns: auto auto;
 }
 
 .yes {
     background-color: green;
-    padding: 50px;
+    padding: 40px;
 }
 
 .no {
     background-color: red;
-    padding: 50px;
+    padding: 40px;
 }
