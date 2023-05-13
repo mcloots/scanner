@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BarcodeFormat } from '@zxing/library';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'scanner';
+
+  allowedFormats = [ BarcodeFormat.QR_CODE];
 }
