@@ -1,1 +1,1 @@
-<zxing-scanner [formats]="allowedFormats"></zxing-scanner>
+<zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>

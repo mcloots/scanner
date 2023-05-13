@@ -10,4 +10,8 @@ export class AppComponent {
   title = 'scanner';
 
   allowedFormats = [ BarcodeFormat.QR_CODE];
+
+  scanSuccessHandler($event: unknown) {
+    alert('Gelukt');
+  }
 }
